@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,111 @@
   to {
     transform: rotate(360deg);
   }
+}
+.home{
+  background-image: url('./asset/people.png');
+}
+
+.kolomentor::first-letter{
+  color: brown;
+  font-family: 'Franklin Gothic Medium';
+  font-weight: bolder
+}
+
+.nav-position{
+  position: fixed;
+}
+
+.header-text{
+  margin:10% 7%;
+  color: #2b211f;
+  font-weight: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.header-text{
+  float: left;
+}
+
+.front-display-clock{
+  width: 40%;
+ 
+}
+h5{
+  color:#edf5f2;
+}
+span{
+  color:#63736e ;
+}
+.mentor-mentee-button{
+  text-align: center;
+}
+.front-display-clock{
+  float: right;
+}
+
+.mentor-card{
+  height: 600px;
+}
+
+/* Mentee Login  */
+
+.login_form{
+  width: 25%;
+  background-color: #e5e8ee;
+  margin-left: 40%;
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 2%;
+}
+.input{
+  margin: 2%;
+}
+.login_btn{
+  width: 100%;
+  margin: 2%;
+}
+.kolomentor-form{
+  text-align: center;
+}
+
+/* Mentors profile section */
+.mentor-image-wrapper{
+  display: absolute;
+}
+.mentee-counter{
+  float: right;
+}
+
+.mentor-image-circle{
+  border-radius: 100%;
+  width: 15%;
+  padding: 1%;
+}
+.link-active{
+  height: auto;
+  width: auto;
+  background-color: #f0f2f7;
+  border-radius: 3px;
+  color: #edf5f2;
+}
+
+.link:hover{
+  height: auto;
+  width: auto;
+  background-color: #dce0e6;
+  border-radius: 3px;
+}
+.side-bar-icons{
+  float: right;
+}
+
+
+.mentor-content-main-wrapper{
+  border-width: 1px;
+  height: auto;
+  width: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #c9ccd3;
 }
